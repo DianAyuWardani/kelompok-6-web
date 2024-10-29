@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center; /* Untuk meratakan teks ke tengah */
+    padding: 20px;
+    background-color: rgb(228, 84, 182); /* Sesuaikan dengan warna yang diinginkan */
+}
+
+header nav a {
+    margin: 0 15px; /* Jarak antara tautan */
+    text-decoration: none;
+    color: #333; /* Sesuaikan warna teks */
+}
+
+header nav {
+    display: inline-block; /* Membuat konten nav tidak memenuhi seluruh lebar layar */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.article-header {
+    text-align: center;
+    margin-bottom: 20px; /* Tambahkan spasi di bawah header */
+}
+
+.article-header img {
+    max-width: 100%; /* Gambar menyesuaikan dengan lebar layar */
+    height: auto;
+    margin-top: 20px; /* Tambahkan spasi di atas gambar */
+}
+
+.article-content {
+    text-align: justify; /* Membuat teks dirata kiri-kanan */
+    margin-top: 20px; /* Spasi antara gambar dan teks artikel */
+    padding: 0 20px; /* Memberikan padding di sisi kiri dan kanan */
+}
+
+.article-content p {
+    font-size: 16px;
+    line-height: 1.6; /* Memberikan spasi antar baris untuk keterbacaan */
+}
+
+
+footer {
+    background-color: #eef9fb;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .contact-info, 
+footer .site-map, 
+footer .app-download {
+    flex: 1;
+    margin: 10px;
+}
+
+footer p {
+    color: #333;
+}
+
+footer .site-map ul {
+    list-style: none;
+}
+
+footer .site-map ul li {
+    margin-bottom: 10px;
+}
+
+footer .site-map ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .app-download img {
+    width: 150px;
+    margin-right: 10px;
+}
+footer {
+    background-color: #e8f8f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-center, .footer-right {
+    margin: 10px;
+}
+
+.footer-left p, .footer-center p, .footer-right p, .footer-right a {
+    color: #333;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-center h3, .footer-right h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-right a:hover {
+    color: #007BFF;
+}

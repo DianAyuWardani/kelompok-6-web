@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center; /* Untuk meratakan teks ke tengah */
+    padding: 20px;
+    background-color: rgb(228, 84, 182); /* Sesuaikan dengan warna yang diinginkan */
+}
+
+header nav a {
+    margin: 0 15px; /* Jarak antara tautan */
+    text-decoration: none;
+    color: #333; /* Sesuaikan warna teks */
+}
+
+header nav {
+    display: inline-block; /* Membuat konten nav tidak memenuhi seluruh lebar layar */
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f8ff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.article {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.article img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.article h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.article span {
+    font-size: 12px;
+    color: #999;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9f5fb;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #666;
+}
